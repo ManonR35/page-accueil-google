@@ -1,0 +1,166 @@
+body{
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 0px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+  /* border-style: solid; */
+}
+
+nav ul{
+  flex-wrap: wrap;
+  width: 250px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+  align-items: center;
+  /* border-style: solid; */
+}
+
+.underline:hover{
+  text-decoration: underline;
+}
+
+.underline a{
+  color: black;
+  text-decoration: none;
+}
+
+section{
+  height: 522px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* border-style: solid; */
+  flex-direction: column;
+}
+
+form{
+  display: flex;
+  flex-direction: row;
+  /* border-style: solid; */
+  width: 500px;
+  justify-content: space-around;
+}
+
+#boutonsecondaire{
+  display: flex;
+  /* border-style: solid; */
+  width: 400px;
+  /* justify-content: space-around; */
+}
+
+#boutonrecherche{
+  display: flex;
+  justify-content: space-around;
+  /*border-style: solid; */
+  width: 600px;
+  padding-left: 0px;
+}
+
+
+
+#imgcompte{
+  width: 30px;
+  height: auto;
+}
+
+#imghamburger{
+  width: 40px;
+  height: auto;
+}
+
+#loupe{
+  width: 20px;
+  height: auto;
+}
+
+#recherche{
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #c6c6c6;
+  width: 400px;
+  height: 40px;
+}
+
+#recherche:focus{
+  box-shadow: 2px 2px 2px #c6c6c6;
+
+}
+
+#micro{
+  width: 15px;
+  height: auto;
+}
+
+#boutonrecherche li{
+  width: 150px;
+  height: 35px;
+  background-color: rgb(242, 242, 242);
+  color: rgb(95, 99, 104);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#boutonrecherche li:hover{
+  border-width: 1px;
+  border-style: solid;
+  border-color: #c6c6c6;
+  box-shadow: 0 1px 1px #c6c6c6;
+}
+
+
+footer{
+  color: #5f6368;
+  background-color: rgb(242, 242, 242);
+}
+
+#footerdown, #footerup{
+  border-top: rgb(228, 228, 228);
+  border-top: solid 0.5px;
+  border-color: #c6c6c6;
+  height: 40px;
+}
+
+#footerup{
+  display: flex;
+  align-items: center;
+}
+
+#footerup p{
+  margin: 27px; 
+}
+
+
+
+#footerdown{
+  display: flex;
+  justify-content: space-between;
+}
+
+#footerdown ul{
+  /* border-style: solid; */
+  flex-wrap: wrap;
+  width: 650px;
+  height: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+  align-items: center;
+}
+
+#footerdown li:hover{
+  text-decoration: underline;
+}
